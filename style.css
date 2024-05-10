@@ -1,0 +1,68 @@
+body{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+h1, h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+h1{
+    color: white;
+    background-color: green;
+}
+
+div{
+    display: flex; 
+    align-items: center;
+}
+
+#hi{
+    margin-left: 5px;
+    font-style: inherit;
+    color: green;
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: white;
+    color: green;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div, .secction-list{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    li{
+        width: 90%;
+        margin: 10px;
+        border: solid grey 3px;
+        border-radius: 20px;
+        div{
+            width: auto;
+            button{
+                width: 300px;
+            }
+        }
+        div:hover{
+            background-color: greenyellow;
+            border-radius: 20px;
+        }
+    }
+}
